@@ -1,0 +1,390 @@
+/* HOME ONLY*/
+
+/* This is for Front page*/
+
+.Who-container {
+    display: flex;
+    align-content: center;
+    margin-top: 1in; 
+    margin-right: 1in;
+    
+}
+
+.Who {
+    text-align: left; 
+    font-size: 30px;
+    margin: 0;
+    margin-top: 6%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.Who .Whos {
+    font-size: 25px; 
+    margin: 0;   
+}
+
+.Who .name {
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 0;
+}
+.Who .below{
+    font-size: 20px;
+    font-style: oblique;
+    margin: 0;
+}
+
+
+/* header*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('ImageBackground.jpg'); 
+    background-size: cover;
+    
+}
+
+header {
+    background-color: white; 
+    padding: 10px 0; 
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+/*Button Design*/
+
+.Button-Front {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0px; 
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.Button-Front button {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    background-size: contain;
+    color: inherit;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.Button-Front button:hover {
+    background-color: none;
+    color: #777;
+    
+}
+.button-link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+
+
+/* Profile Image in Front*/
+
+.round-frame {
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    width: 300px; 
+    height: 300px; 
+    display: flex;
+    margin: 0 0 0 1in;
+    justify-content: flex-start; 
+    align-items: left; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.Image{
+    margin-left: 15%;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    
+}
+
+/*Continue Button*/
+
+.continue-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: gray;
+    color: black;
+    padding: 10px 30px;
+    border: none; 
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+    border-radius: 10px; 
+    display: inline-block; 
+    text-align: center; 
+    margin-right: 10%;
+}
+
+.continue-btn:hover {
+    background-color: darkgray; 
+}
+.Next-btn{
+    font-family: 'Poppins', sans-serif;
+    background-color: gray;
+    color: black;
+    padding: 10px 30px;
+    border: none; 
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 17cm;
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+    border-radius: 10px; 
+    display: inline-block; 
+    text-align: center; 
+    margin-right: 10%; 
+}
+.Next-btn:hover {
+    background-color: darkgray; 
+}
+
+/*PERSONAL PAGE*/
+
+.container1 {
+    background-color: white;
+    border: 2px solid; 
+    border-radius: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 1cm;
+    margin-bottom: 20px;
+    margin-left: 1in;
+    margin-right: 1in;
+}
+
+.container2 {
+    background-color: white;
+    border: 2px solid; 
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 1in;
+    margin-left: 1in;
+}
+
+
+.profile-picture img {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    border: 2px solid gray; 
+    object-fit: cover; 
+    margin-right: 15px; 
+    margin-left: 15px;
+}
+
+.profile-picture{
+    text-align:center;
+}
+
+.profile-picture1 img{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 2px solid gray; 
+    object-fit: cover; 
+    margin-right: 15px; 
+    margin-left: 15px;
+}
+
+.minicontainer1{
+    background-color: white;
+    border: 2px solid; 
+    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: right;
+    padding-left: 10px;
+    margin-right: 3in;
+    margin-left: 3in;
+    margin-top: 1%;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: #777;
+    margin-top: 1cm;
+}
+
+.personal-info1 {
+    margin-top: 15px;
+    text-align: right;
+}
+
+
+
+.info-item {
+    margin-top: 15px 0;
+    text-align: left;
+    margin-left: 5%;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+span {
+    color: #333;
+}
+
+/* Education */
+
+.education {
+    width: calc(100% - 20px); 
+    margin: 1.00px; 
+    text-align: center;
+    margin-left: 20px;
+    position: relative; 
+}
+
+.education::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 3in; 
+    height: 1px; 
+    background-color: black; 
+}
+
+/*Hobbies*/
+
+body {
+    margin: 0;
+}
+
+.slideshow-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.fade {
+    animation: fade 5s ease-in-out infinite;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.1;
+    }
+}
+
+.slideshow-container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    margin-top: 15%;
+    left: 50%;
+    transform: translateX(-50%); /* Center the line */
+    width: 3in; /* Set the width to 3 inches */
+    height: 1px; /* Set the height of the line */
+    background-color: black; /* Set the color of the line */
+}
+
+.hobbies1 h1 {
+    text-align: left;
+    margin-left: 1%
+}
+
+.statement{
+    text-align: left;
+}
+
+body {
+    margin: 0;
+}
+
+.video-container {
+    display: flex;
+    height: 80vh;
+    width: 260vw; /* 3 videos side by side */
+    overflow: hidden;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.video {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.image {
+    width: 30%; /* Adjust as needed */
+    height: auto;
+}
+
+travel-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.image {
+    width: 23%; /* Adjust as needed */
+    height: auto;
+}
+
+
